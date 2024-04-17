@@ -63,14 +63,26 @@
 			<div class="portfolio-header">
 				<h3>Realizacje</h3>
 			</div>
-			<div class="image-container">
-				<div class="empty-space"></div> <!-- Empty space on the left -->
+			<div class="slider-container">
+				<div class="empty-space" onclick="previousImage()">
+					<svg id="previous-svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 48 48" shape-rendering="geometricPrecision" text-rendering="geometricPrecision" opacity="0.7">
+						<rect width="46" height="46" rx="4" ry="4" transform="translate(48, 48) rotate(180)" fill="none" stroke="#fff" stroke-width="2" stroke-linejoin="round" />
+						<polyline points="32,12 16,24 32,36" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+					</svg>
+				</div>
+				<div class="empty-space" onclick="nextImage()">
+					<svg id="next-svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 48 48" shape-rendering="geometricPrecision" text-rendering="geometricPrecision" opacity="0.7">
+						<rect width="46" height="46" rx="4" ry="4" transform="matrix(0 1-1 0 47 1)" fill="none" stroke="#fff" stroke-width="2" stroke-linejoin="round" />
+						<polyline points="16,12 32,24 16,36" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+					</svg>
+				</div>
 				<div class="portfolio-image"><img src="http://izi-design.local/wp-content/uploads/2024/04/IMG_1661photo.jpg"></div>
 				<div class="portfolio-image"><img src="http://izi-design.local/wp-content/uploads/2024/04/IMG_1642photo.jpg"></div>
 				<div class="portfolio-image"><img src="http://izi-design.local/wp-content/uploads/2024/04/IMG_1555photo.jpg"></div>
 			</div>
 		</div>
 	</section>
+
 
 
 	<?php get_footer(); ?>
