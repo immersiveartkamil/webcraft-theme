@@ -10,6 +10,7 @@ $accent-color: #BBBBBB;
 @import 'components/about-us.scss';
 @import 'components/services.scss';
 @import 'components/portfolio.scss';
+@import 'components/footer.scss';
 
 
 .quote{
@@ -50,8 +51,9 @@ body{
     margin: 0 auto;
 }
 
-.flex-row-center{
+.flex-col-center{
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     max-width: 100%;
