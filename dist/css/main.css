@@ -1,6 +1,4 @@
-body .content-area {
-  padding-top: 25px;
-}
+@charset "UTF-8";
 body.stop {
   overflow: hidden;
 }
@@ -134,39 +132,6 @@ header.w-sticky nav a {
     font-size: 15px;
   }
 }
-.banner {
-  height: 35vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  color: white;
-  position: relative;
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  isolation: isolate;
-  max-width: 100%;
-}
-.banner__title {
-  text-transform: uppercase;
-  text-align: left;
-  z-index: 1;
-}
-.banner__subtitle {
-  z-index: 1;
-}
-.banner::after {
-  content: "";
-  display: block;
-  position: absolute;
-  left: 0;
-  height: 100%;
-  width: 100%;
-  background-color: black;
-  opacity: 0.8;
-}
-
 h1 {
   font-size: 53px;
 }
@@ -176,218 +141,6 @@ h1 {
     font-size: 83px;
   }
 }
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-.accordion_wrapper {
-  flex-direction: row-reverse;
-}
-
-@media (min-width: 768px) {
-  .row_flex {
-    display: flex;
-    gap: 15px;
-  }
-}
-@media (min-width: 768px) {
-  .row_flex .row_inner {
-    width: 50%;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: center;
-  }
-}
-.row_flex .row_inner img {
-  width: 100%;
-  max-height: 500px;
-}
-
-.accordion_images {
-  position: relative;
-}
-@media (max-width: 767px) {
-  .accordion_images {
-    display: none;
-  }
-}
-.accordion_images img {
-  opacity: 0;
-  transition: 0.3s;
-}
-.accordion_images img:not(:first-child) {
-  position: absolute;
-  left: 0;
-  top: 0;
-}
-.accordion_images img.active {
-  opacity: 1;
-}
-
-.accordion-single {
-  margin: 20px 0;
-}
-
-.accordion {
-  width: 100%;
-  overflow: hidden;
-  margin-top: 20px;
-}
-.accordion_intro {
-  position: relative;
-  padding: 20px;
-  cursor: pointer;
-  border-radius: 5px;
-  border: 2px solid white;
-}
-.accordion_content {
-  color: #fff;
-  padding: 0 20px;
-  max-height: 0;
-  overflow: hidden;
-  will-change: max-height;
-  transition: all 0.25s ease-out;
-  opacity: 0;
-}
-@media (min-width: 768px) {
-  .accordion_content .accordion_image {
-    display: none;
-  }
-}
-@media (max-width: 767px) {
-  .accordion_content .accordion_image {
-    display: block;
-    margin-bottom: 20px;
-  }
-}
-.accordion_active .accordion_content {
-  padding: 0 20px;
-  opacity: 1;
-}
-
-.text_col_1 div:nth-of-type(1) {
-  border-right: 2px solid white;
-  text-align: right;
-  padding: 20px 10px;
-}
-
-.text_col_2 div:nth-of-type(2) {
-  border-left: 2px solid white;
-  transform: translateX(-2px);
-  text-align: left;
-  padding: 20px 10px;
-}
-
-.spacer_text {
-  padding: 2em 0.5em;
-}
-.spacer_text__wrapper {
-  display: flex;
-  justify-content: space-between;
-}
-.spacer_text__icon {
-  margin-right: 0.2em;
-}
-.spacer_text__icon svg, .spacer_text__icon i {
-  height: 20px;
-  width: 20px;
-}
-.spacer_text__text {
-  font-size: 0.5em;
-  text-transform: uppercase;
-}
-
-@media (min-width: 500px) {
-  .spacer_text {
-    padding: 2em 1em;
-  }
-  .spacer_text__icon {
-    margin-right: 0.5em;
-  }
-  .spacer_text__icon svg, .spacer_text__icon i {
-    height: 40px;
-    width: 40px;
-  }
-  .spacer_text__text {
-    font-size: 2.5em;
-  }
-}
-.team {
-  margin: 2em 0;
-}
-.team__image {
-  max-height: 100vh;
-  overflow: hidden;
-  padding: 0;
-}
-.team__image img {
-  width: 100%;
-}
-.team__info {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: flex-start;
-}
-.team__name {
-  font-size: 2.5em;
-  letter-spacing: 0.25em;
-  text-transform: uppercase;
-  margin-bottom: 0.5em;
-}
-.team__role {
-  font-size: 1.3em;
-  letter-spacing: 0.35em;
-  margin-bottom: 0.5em;
-}
-.team__description {
-  width: 100%;
-}
-
-@media (min-width: 500px) {
-  .team {
-    margin: 0;
-  }
-  .team__image {
-    max-height: 100vh;
-    overflow: hidden;
-    padding: 0;
-  }
-  .team__image img {
-    width: 100%;
-  }
-  .team__info {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
-    padding: 0 2em;
-  }
-  .team__name {
-    font-size: 3.5em;
-    letter-spacing: 0.25em;
-    text-transform: uppercase;
-    margin-bottom: 0.5em;
-  }
-  .team__role {
-    font-size: 1.3em;
-    letter-spacing: 0.35em;
-    margin-bottom: 0.5em;
-  }
-  .team__description {
-    width: 80%;
-  }
-  .team-wrapper .container-fluid:nth-child(even) .row {
-    display: flex;
-    flex-direction: row-reverse !important;
-  }
-  .team-wrapper .container-fluid:nth-child(even) .row .team__info {
-    align-items: flex-end;
-  }
-}
 .site-main {
   z-index: 200;
   position: relative;
@@ -395,10 +148,10 @@ h1 {
 }
 
 body {
+  margin: 0;
   font-family: "Inter Tight", sans-serif;
-  background-color: #333333;
+  background-color: black;
   color: white;
-  min-height: 800vh;
 }
 
 .w-section {
@@ -407,23 +160,9 @@ body {
   padding: 0em;
   min-height: 100vh;
   min-width: 100%;
+  width: 100%;
   max-width: 100%;
   overflow: hidden;
-}
-
-.carousel-section {
-  z-index: 1;
-  border-bottom-left-radius: 40px;
-  border-bottom-right-radius: 40px;
-  max-height: 40vh;
-  min-height: 30vh;
-  min-width: 100%;
-  max-width: 100%;
-}
-
-.custom-border {
-  border-radius: 25px;
-  border: 2px solid #9ba1ab;
 }
 
 .flex-center-row {
@@ -482,527 +221,176 @@ section {
   overflow: hidden;
 }
 
-.noise {
-  position: fixed;
-  top: -50%;
-  left: -50%;
-  right: -50%;
-  bottom: -50%;
-  width: 200%;
-  height: 200vh;
-  background: transparent url("http://assets.iceable.com/img/noise-transparent.png") repeat 0 0;
-  background-repeat: repeat;
-  animation: bg-animation 0.2s infinite;
-  opacity: 0.9;
-  visibility: visible;
-  pointer-events: none;
-}
-
-@keyframes bg-animation {
-  0% {
-    transform: translate(0, 0);
-  }
-  10% {
-    transform: translate(-5%, -5%);
-  }
-  20% {
-    transform: translate(-10%, 5%);
-  }
-  30% {
-    transform: translate(5%, -10%);
-  }
-  40% {
-    transform: translate(-5%, 15%);
-  }
-  50% {
-    transform: translate(-10%, 5%);
-  }
-  60% {
-    transform: translate(15%, 0);
-  }
-  70% {
-    transform: translate(0, 10%);
-  }
-  80% {
-    transform: translate(-15%, 0);
-  }
-  90% {
-    transform: translate(10%, 5%);
-  }
-  100% {
-    transform: translate(5%, 0);
-  }
-}
-.btn {
-  color: white;
-  border: 1px solid white;
-  padding: 0.5em 0.8em;
-  text-decoration: none;
-}
-
-.webcraft-text {
-  display: inline-flex;
-  flex-wrap: wrap;
-  transform: translate(70%, 145%);
-  visibility: hidden;
-}
-
-.studio {
-  visibility: hidden;
-}
-
-.design {
-  visibility: hidden;
-}
-
-.designstudio-text {
-  display: inline-flex;
-  transform: translate(32%, 175%);
-}
-
-h1 {
-  margin: 0px;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-.thin {
-  font-weight: 100;
-}
-
-.thick {
-  font-weight: 400;
-}
-
-h1.webcraft {
-  font-size: 240px;
-}
-
-h1.design, h1.studio {
-  font-size: 175px;
-}
-
-div.carousel {
-  font-size: 45px;
-  align-items: center;
-  justify-content: space-evenly;
-  display: flex;
-  transform: translate(-900px, 100px);
-  width: 98%;
-}
-
-h2 {
-  z-index: 0;
-}
-
-svg {
-  z-index: 1;
-  margin-left: 5px;
-  margin-right: 5px;
-}
-
-.briefing-section {
-  border-bottom-left-radius: 40px;
-  border-bottom-right-radius: 40px;
-  min-width: 80%;
-  width: 90%;
-  margin: 0 auto;
-}
-
-.briefing {
-  font-size: 100px;
-  min-height: 160vh;
-  text-align: center;
-}
-
+/* Styling the hero section */
 .hero {
-  background-color: black;
-  border-top-left-radius: 40px;
-  border-top-right-radius: 40px;
-  min-width: 80%;
-  width: 90%;
-  margin: 0 auto;
+  position: relative;
+  height: 100vh;
+  /* Take 100% viewport height */
+  width: 100%;
+  /* Take 100% viewport width */
+  overflow: hidden;
 }
 
-.briefing-text {
-  display: block;
-}
-
-.briefing-container {
-  margin-bottom: 100px;
-}
-
-.briefing-experience {
-  font-size: 200px;
-}
-
-.hero-animation {
-  visibility: hidden;
-}
-
-.group {
+/* Styling the hero text */
+.hero-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 48px;
   text-align: center;
-  white-space: nowrap;
-  overflow: hidden;
-  margin-bottom: 100px;
-  z-index: 2;
+  width: 100%;
+  z-index: 1;
 }
 
-.item {
+.slider {
+  overflow: hidden;
+  width: 100vw;
+  height: 100vh;
   position: relative;
-  width: 15vw;
-  height: 75vh;
+}
+
+.slider .slide {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
   background-position: center;
-  background-size: 75vh;
-  margin: 1vw;
-  border-radius: 3vw;
-  display: inline-block;
-  cursor: pointer;
-  background-image: url("https://webcraftstudio.pl/wp-content/uploads/2024/03/abstract-glowing-flame-drops-electric-illumination-generative-ai-scaled.jpg");
-  z-index: 2;
-  opacity: 0.5;
+  animation: slider 10.5s infinite;
 }
 
-.portfolio {
-  transform: translate(0 100);
-  min-height: 260vh !important;
-  overflow: hidden;
+.slider .slide:nth-child(1) {
+  background: rgba(0, 0, 0, 0.4) url("http://izi-design.local/wp-content/uploads/2024/04/IMG_1532photo.jpg");
+  background-blend-mode: darken;
+  animation-delay: 0s;
 }
 
-.sign {
-  position: relative;
-  transform: translate(-600px, 50vh);
-  font-size: 300px;
-  display: inline-block;
-  z-index: 0;
-  overflow: hidden;
+.slider .slide:nth-child(2) {
+  background: rgba(0, 0, 0, 0.4) url("http://izi-design.local/wp-content/uploads/2024/04/POPR_0E8A1572DAL-MEBLE-T.jpg");
+  background-blend-mode: darken;
+  animation-delay: -3.5s;
 }
 
-.services-container {
+.slider .slide:nth-child(3) {
+  background: rgba(0, 0, 0, 0.4) url("http://izi-design.local/wp-content/uploads/2024/04/Izi_Design_Saudi_Aramco_Paulina_Hinz_Photos-1.jpg");
+  background-blend-mode: darken;
+  animation-delay: -7s;
+}
+
+@keyframes slider {
+  0%, 28%, 100% {
+    opacity: 1;
+    animation-timing-function: ease;
+    z-index: 0;
+  }
+  33% {
+    opacity: 0;
+    animation-timing-function: step-end;
+    z-index: 0;
+  }
+  95% {
+    opacity: 1;
+    animation-timing-function: step-end;
+    z-index: -1;
+  }
+}
+.about-us {
+  width: 100%;
+  height: 100%;
+}
+
+.about-us-header {
+  text-align: left;
+  margin-left: 20px;
+}
+
+.content-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* zmiana z align-items: start; */
+  width: 100%;
+  height: 100vh;
+}
+
+.about-us-content {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: flex-start;
-  width: 80%;
-  margin: 0 auto;
-  flex-wrap: wrap;
+  width: 100%;
+  height: 90vh;
 }
 
-.service-container {
-  display: flex; /* Enable flex layout */
-  flex-direction: column; /* Arrange children in a column */
-  /* Do not set flex-grow or width to let content dictate the size */
-  margin: 10px; /* Add margin to ensure there's space around each container */
-  opacity: 0;
+.text-column {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* wyśrodkowanie */
+  width: 40vw !important;
+  /* szerokość 50% */
+  margin-left: 5%;
+  margin-top: 2%;
 }
 
-/* Apply margins to service-container for even spacing */
-.service-container:not(:last-child) {
-  margin-right: 20px; /* Adjust spacing between service containers */
+.about-us-text {
+  padding-left: 50px;
+  width: 100%;
+  /* zmiana na 100% */
+  padding-right: 20px;
 }
 
-.service-category {
+.about-us-video {
+  width: 45%;
+  height: 60%;
+}
+
+.about-us-video iframe {
+  width: 100%;
+  height: 100%;
   display: block;
-  font-size: 60px;
-}
-
-.service-name {
-  font-size: 30px;
-  display: block; /* Ensure text elements are displayed as block */
-  /* Text alignment or additional styling here if needed */
-}
-
-.sign-services {
-  position: absolute;
-  right: 0;
-  bottom: 50px;
-  font-size: 150px;
-  display: inline-block;
-  z-index: 0;
-  overflow: hidden;
-}
-
-.services {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  /* Center vertically */
-  position: relative;
-  height: 100vh;
-  color: #000000;
-  /* Set a height to allow for centering. Adjust as needed. */
-}
-
-/* Styles for the container section */
-.container-fluid.timeline-section {
-  display: flex;
-  position: relative;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-  padding: 20px 0;
-}
-
-/* Styles for the timeline container */
-.timeline {
-  display: flex;
-  flex-wrap: nowrap;
-  gap: 40px;
-  justify-content: space-between;
-  width: 90%;
-  min-width: 800px;
-}
-
-/* Styles for the text containers */
-.text-container {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  /* Adjusted for equal spacing */
-  height: 40vh;
-  width: 40vh;
-  padding: 40px;
-  background-color: #333;
-  color: #fff;
-  border-radius: 32px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  box-sizing: border-box;
-  opacity: 0;
-  position: relative;
-  /* Added for absolute positioning of header */
-}
-
-/* Styles for the timeline header */
-.timeline-header {
-  position: absolute;
-  /* Position header at the top */
-  top: 40px;
-  /* Distance from the top */
-  left: 40px;
-  /* Align to the left with padding space */
-  font-size: 30px;
-  margin-bottom: 20px;
-  /* Maintain gap */
-}
-
-/* Styles for the timeline text */
-.timeline-text {
-  text-align: left;
-  /* Align text to the right */
-  flex-grow: 1;
-  /* Allow text container to fill available space */
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  /* Vertically center the text */
-  width: 100%;
-}
-
-/* Styles for the number within the container */
-.container-number {
-  position: absolute;
-  bottom: -30px;
-  /* Half outside the container */
-  left: -40px;
-  font-size: 80px;
-  color: #333;
-  /* Text color */
-  width: 100px;
-  /* Width of the circle */
-  height: 100px;
-  /* Height of the circle, making it a square for the base of the circle */
-  background-color: white;
-  /* Circle color */
-  border-radius: 50%;
-  /* Makes the square a circle */
-  display: flex;
-  justify-content: center;
-  /* Centers text horizontally */
-  align-items: center;
-  /* Centers text vertically */
-  box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
-  /* Optional: adds a subtle shadow for depth */
-}
-
-.sign-timeline {
-  position: absolute;
-  right: 0;
-  bottom: 50px;
-  /* Adjust this value based on the desired position within the timeline section */
-  font-size: 150px;
-  /* Large font size for the sign text */
-  display: inline-block;
-  z-index: 0;
-  /* Ensure it does not overlap content you want to be interactable */
-  overflow: hidden;
-  /* Hide overflow to maintain clean edges */
-  color: #000000;
-  /* Light color for the sign, adjust as needed */
-  opacity: 1;
-  /* Make the sign less prominent so it doesn't overshadow the content */
-}
-
-.contact {
-  margin-top: 100px;
-  margin-bottom: 100px;
-  overflow: hidden;
-  width: 40%;
-  min-width: 10%;
-  opacity: 0.3;
   margin: 0 auto;
-  display: flex;
-  justify-content: center;
-  border-top-left-radius: 100px;
-  border-top-right-radius: 100px;
-  min-height: 70vh !important;
-  height: 20vh;
-  max-height: 60vh;
-  color: white;
 }
 
-.contact-section {
-  font-family: "Helvetica Neue", Arial, sans-serif;
-  /* Substitute with the actual font if available */
-  text-align: center;
-  /* Centers the content */
-  padding: 50px 20px;
-  /* Adjust the padding as needed */
-}
-
-.content-wrapper {
-  /* Adjust width as needed */
-  margin: 0 auto;
-  /* Centers the content wrapper */
-}
-
-.contact-header {
-  font-size: 70px;
-  margin: 10px;
-  /* Removes default margins */
-}
-
-.contact-email {
-  font-size: 24px;
-  /* Approximation based on the image */
-  margin-bottom: 60px;
-  /* Space below the email */
-}
-
-.email-link {
-  /* Ensures the email link is the same color as the text */
-  text-decoration: none;
-  /* Removes underline */
-}
-
-.email-link:hover {
-  text-decoration: underline;
-  /* Underlines the email link on hover */
-}
-
-.contact-footer {
-  font-size: 16px;
-  /* Approximation based on the image */
-  margin-bottom: 30px;
-  /* Space above the social links */
-}
-
-.footer-brand {
-  font-weight: bold;
-  /* Makes the brand name bold */
-}
-
-.social-links {
-  margin-bottom: 30px;
-  /* Space above the horizontal line */
-}
-
-.social-link {
-  /* Ensures social links are the same color as the text */
-  text-decoration: none;
-  /* Removes underline */
-  margin: 0 5px;
-  /* Adjusts spacing around the pipes */
-}
-
-.social-link:hover {
-  text-decoration: underline;
-  /* Underlines social links on hover */
-}
-
-.footer-line {
-  border: none;
+.stripe {
   height: 1px;
-  max-width: 600px;
-  /* Width of the line, can be adjusted */
-  margin: 0 auto;
-  /* Centers the line */
-}
-
-.contact-container {
-  text-align: center;
-  padding: 50px 20px;
-}
-
-.text-swap {
-  font-size: 100px;
-  /* Match the header font size */
-  opacity: 1;
-  /* Initial opacity */
-  white-space: nowrap;
-  /* Prevents the text from wrapping */
-}
-
-.contact-info-section {
-  display: flex;
-  justify-content: space-between;
-  padding-top: 0px;
-}
-
-.contact-info-column {
-  display: flex;
-  /* This ensures the use of Flexbox */
-  flex-direction: column;
-  /* Stacks child elements vertically */
-  align-items: center;
-  /* Centers items horizontally in the container */
   width: 30%;
-  /* Adjust based on your layout */
-  text-align: center;
-  color: white;
-}
-
-.contact-info-column svg {
-  margin-top: -30px;
-  margin-bottom: -60px;
-  /* Adjust this value to reduce space above the SVG */
-  display: block;
-  /* Ensure the SVG is block-level to manage margins effectively */
-  margin-left: auto;
-  margin-right: auto;
-  /* Centers the SVG in its container */
-  transform: scale(0.333);
-  /* Makes the SVG three times smaller */
-  transform-origin: center;
-  /* Ensures the SVG scales down from its center */
-}
-
-.contact-info-column h3,
-.contact-info-column a,
-.contact-info-column p {
-  margin-top: 5px;
-  /* Reduced space between the SVG and the text */
+  background-color: black;
   margin-bottom: 10px;
-  /* Adjust as needed */
+}
+
+.about-us-text h3 {
+  margin-bottom: 10px;
+  font-size: 40px;
+}
+
+.about-us-video h3 {
+  margin-bottom: 10px;
+  font-size: 40px;
+}
+
+.about-us-header {
+  font-size: 40px;
+  text-align: left;
+  margin-left: 100px;
+  /* Usuwamy margines z lewej strony */
+  margin-right: auto;
+  /* Dodajemy margines z prawej strony, aby nagłówek był na lewej stronie */
 }
 
 body {
   font-family: "Inter Tight", sans-serif;
-  background-color: #333333;
-  color: white;
+  background-color: whitesmoke;
+  color: black;
 }
 
 .custom-container {
-  max-width: 90%;
+  max-width: 100%;
   margin: 0 auto;
 }
 

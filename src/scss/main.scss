@@ -3,27 +3,22 @@ $seconadary-color:#888888;
 $accent-color: #BBBBBB;
 
 @import 'components/menu.scss';
-@import 'components/banner.scss';
 @import 'typography.scss';
 @import 'normalize.scss';
-@import 'components/accordion-w-img.scss';
-@import 'components/text-2.scss';
-@import 'components/spacer-text.scss';
-@import 'components/team-member.scss';
 @import  'components/homepage.scss';
-@import  'components/hero.scss';
-@import  'components/portfolio.scss';
+@import 'components/hero.scss';
+@import 'components/about-us.scss';
+
 
 body{
     font-family: "Inter Tight", sans-serif;
-    background-color: #333333;
-    color:white;
+    background-color: whitesmoke;
+    color:black;
 }
 
 
-
 .custom-container{
-    max-width: 90%;
+    max-width: 100%;
     margin: 0 auto;
 }
 

@@ -25,7 +25,6 @@
 <body <?php body_class(); ?>>
     <?php wp_body_open(); ?>
     <div id="page" class="site">
-        <div class="noise"></div>
         <header id="masthead" class="site-header">
 
             <svg id="logo" fill="white" fill-rule="evenodd" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 180 60" shape-rendering="geometricPrecision" text-rendering="geometricPrecision" style="background-color:transparent"><text dx="0" dy="0" font-family="&quot;emwWTBQLPMX1:::Inter Tight&quot;" font-size="30" font-weight="400" transform="translate(31.145304 31.25002)" stroke-width="0">
