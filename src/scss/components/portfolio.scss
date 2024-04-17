@@ -1,5 +1,11 @@
-.portfolio-container {
+.portfolio {
+    min-height: 100vh;
+    height: 100vh;
+    max-height: 100vh;
     background-color: black;
+}
+
+.portfolio-container {
     color: white;
     padding-left: 10%;
     /* Empty space on the left */
@@ -11,6 +17,7 @@
 }
 
 .portfolio-header h3 {
+    margin: 0;
     font-size: 50px;
     font-weight: 200;
 }
