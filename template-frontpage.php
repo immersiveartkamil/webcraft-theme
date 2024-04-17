@@ -18,7 +18,7 @@
 			<div class="about-us-header">
 				<h2>O nas</h2>
 			</div>
-			<div class="row">
+			<div class="row quote about_us__wrapper">
 				<div class="col-lg-6 col-md-6 col-sm-12 about_us__col">
 					<div class="">
 						<h3 class="about_us__heading">Zabudowa meblowa dla inwestycji</h3>
@@ -58,8 +58,19 @@
 			<div class="services-row-description">Tworzymy eleganckie i funkcjonalne meble do salonu, które dodadzą charakteru Twojemu wnętrzu. Nasze projekty są starannie wykonane, aby spełnić oczekiwania nawet najbardziej wymagających klientów.</div>
 		</div>
 	</section>
-
-
+	<section id="portfolio" class="w-section portfolio">
+		<div class="portfolio-container">
+			<div class="portfolio-header">
+				<h3>Realizacje</h3>
+			</div>
+			<div class="image-container">
+				<div class="empty-space"></div> <!-- Empty space on the left -->
+				<div class="portfolio-image"><img src="http://izi-design.local/wp-content/uploads/2024/04/IMG_1661photo.jpg"></div>
+				<div class="portfolio-image"><img src="http://izi-design.local/wp-content/uploads/2024/04/IMG_1642photo.jpg"></div>
+				<div class="portfolio-image"><img src="http://izi-design.local/wp-content/uploads/2024/04/IMG_1555photo.jpg"></div>
+			</div>
+		</div>
+	</section>
 
 
 	<?php get_footer(); ?>
