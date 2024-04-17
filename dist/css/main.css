@@ -153,6 +153,9 @@ h3 {
   h3 {
     font-size: 30px;
   }
+  p {
+    font-size: 19px;
+  }
 }
 .site-main {
   z-index: 200;
@@ -310,11 +313,14 @@ section {
     z-index: -1;
   }
 }
+.about_us {
+  padding: 1em;
+}
 .about_us__col {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  min-height: 50vh;
+  min-height: 55vh;
 }
 .about_us__col p {
   padding-right: 27px;
@@ -330,6 +336,9 @@ section {
 .about_us .video {
   height: 100%;
   width: 100%;
+}
+.about_us__wrapper {
+  padding-bottom: 1em;
 }
 
 .services-row {
@@ -354,8 +363,50 @@ section {
 }
 
 .services-row-name {
-  width: 20%;
-  align-items: center;
+  width: 30%;
+  font-size: 30px;
+  margin-left: 2%;
+  text-align: left;
+}
+
+.services-row-number {
+  font-size: 30px;
+  font-weight: 100;
+  margin-left: 2%;
+}
+
+.services-row-description {
+  width: 50%;
+  font-weight: 200;
+  text-align: right;
+}
+
+.quote {
+  position: relative;
+}
+
+.quote::before {
+  content: "";
+  display: block;
+  width: 40px;
+  height: 40px;
+  border-top: 4px solid #cab37c;
+  border-left: 4px solid #cab37c;
+  position: absolute;
+  top: -10px;
+  left: -10px;
+}
+
+.quote::after {
+  content: "";
+  display: block;
+  width: 40px;
+  height: 40px;
+  border-bottom: 4px solid #cab37c;
+  border-right: 4px solid #cab37c;
+  position: absolute;
+  bottom: -10px;
+  right: -10px;
 }
 
 body {
@@ -374,4 +425,8 @@ body {
   justify-content: center;
   align-items: center;
   max-width: 100%;
+}
+
+.w-section {
+  margin-top: 20px;
 }
