@@ -37,6 +37,28 @@
 		</div>
 	</section>
 
+	<section id="services" class="w-section services">
+		<div class="services-container row"></div>
+		<div class="col-lg-12 services-header">
+			<h3>Usługi</h3>
+		</div>
+		<div class="col-lg-12 services-row">
+			<div class="services-row-number">01</div>
+			<div class="services-row-name">Mebel kuchenny na wymiar</div>
+			<div class="services-row-description">Projektujemy i wykonujemy meble kuchenne dostosowane do Twoich potrzeb i preferencji. Oferujemy szeroki wybór materiałów i wzorów, aby stworzyć idealną kuchnię dla Ciebie.</div>
+		</div>
+		<div class="col-lg-12 services-row">
+			<div class="services-row-number">02</div>
+			<div class="services-row-name">Szafy wnękowe</div>
+			<div class="services-row-description">Zajmujemy się produkcją szaf wnękowych, które optymalnie wykorzystują przestrzeń Twojego domu. Dzięki indywidualnemu podejściu zapewniamy idealne dopasowanie do wymiarów i stylu wnętrza.</div>
+		</div>
+		<div class="col-lg-12 services-row">
+			<div class="services-row-number">03</div>
+			<div class="services-row-name">Meble do salonu</div>
+			<div class="services-row-description">Tworzymy eleganckie i funkcjonalne meble do salonu, które dodadzą charakteru Twojemu wnętrzu. Nasze projekty są starannie wykonane, aby spełnić oczekiwania nawet najbardziej wymagających klientów.</div>
+		</div>
+	</section>
+
 
 
 
