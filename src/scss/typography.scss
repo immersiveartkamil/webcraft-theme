@@ -5,12 +5,26 @@
 
 
 h1{
-    font-size: 53px;
+    font-size: 32px;
+}
+
+h2{
+    font-size: 28px;
+}
+h3{
+    font-size: 24px;
 }
 
 
 @media (min-width:500px) {
-    h1{
-        font-size: 83px;
-    }
+h1{
+    font-size: 60px;
+}
+
+h2{
+    font-size: 45px;
+}
+h3{
+    font-size: 30px;
+}
 }
