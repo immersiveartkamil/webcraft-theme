@@ -1,0 +1,168 @@
+.site-main {
+    z-index: 200;
+    position: relative;
+    overflow: hidden;
+}
+
+
+
+body {
+    font-family: "Inter Tight", sans-serif;
+    background-color: $primary-color;
+    color: white;
+    min-height: 800vh;
+}
+
+
+.w-section {
+    margin-top: 0em;
+    margin-bottom: 0em;
+    padding: 0em;
+    min-height: 100vh;
+    min-width: 100%;
+    max-width: 100%;
+    overflow: hidden;
+}
+
+
+.carousel-section {
+    z-index: 1;
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+    max-height: 40vh;
+    min-height: 30vh;
+    min-width: 100%;
+    max-width: 100%;
+}
+
+
+.custom-border {
+    border-radius: 25px;
+    border: 2px solid #9ba1ab;
+}
+
+.flex-center-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-center-col {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.text-border-bottom::after {
+    content: "";
+    display: block;
+    height: 2px;
+    width: 25px;
+    background-color: white;
+    margin: .3em 0;
+
+}
+
+
+
+section {
+    margin: 0 0;
+    margin-top: 5em;
+    margin-bottom: 5em;
+
+}
+
+html.lenis {
+    height: auto;
+}
+
+.lenis.lenis-smooth {
+    scroll-behavior: auto !important;
+}
+
+.lenis.lenis-smooth [data-lenis-prevent] {
+    overscroll-behavior: contain;
+}
+
+.lenis.lenis-stopped {
+    overflow: hidden;
+}
+
+.lenis.lenis-scrolling iframe {
+    pointer-events: none;
+}
+
+
+.wp-block-heading {
+    font-size: 90px !important;
+}
+
+
+
+section {
+    overflow: hidden;
+}
+
+.noise {
+    position: fixed;
+    top: -50%;
+    left: -50%;
+    right: -50%;
+    bottom: -50%;
+    width: 200%;
+    height: 200vh;
+    background: transparent url('http://assets.iceable.com/img/noise-transparent.png') repeat 0 0;
+    background-repeat: repeat;
+    animation: bg-animation .2s infinite;
+    opacity: .9;
+    visibility: visible;
+    pointer-events: none;
+}
+
+@keyframes bg-animation {
+    0% {
+        transform: translate(0, 0)
+    }
+
+    10% {
+        transform: translate(-5%, -5%)
+    }
+
+    20% {
+        transform: translate(-10%, 5%)
+    }
+
+    30% {
+        transform: translate(5%, -10%)
+    }
+
+    40% {
+        transform: translate(-5%, 15%)
+    }
+
+    50% {
+        transform: translate(-10%, 5%)
+    }
+
+    60% {
+        transform: translate(15%, 0)
+    }
+
+    70% {
+        transform: translate(0, 10%)
+    }
+
+    80% {
+        transform: translate(-15%, 0)
+    }
+
+    90% {
+        transform: translate(10%, 5%)
+    }
+
+    100% {
+        transform: translate(5%, 0)
+    }
+}
+
