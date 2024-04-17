@@ -1,9 +1,11 @@
 .about_us{
+
+    padding:1em;
     &__col{
         display: flex;
         flex-direction: column;
         justify-content: center;
-        min-height: 50vh;
+        min-height: 55vh;
         p{
             padding-right: 27px;
         }
@@ -19,5 +21,9 @@
     .video{
         height: 100%;
         width: 100%;
+    }
+
+    &__wrapper{
+    padding-bottom: 1em;
     }
 }

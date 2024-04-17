@@ -11,6 +11,32 @@ $accent-color: #BBBBBB;
 @import 'components/services.scss';
 
 
+.quote{
+    position: relative;
+    }
+    .quote::before{
+    content: "";
+    display: block;
+    width: 40px;
+    height: 40px;
+    border-top: 4px solid #cab37c;
+    border-left: 4px solid #cab37c;
+    position: absolute;
+    top: -10px;
+    left: -10px;
+    }
+    .quote::after{
+    content: "";
+    display: block;
+    width: 40px;
+    height: 40px;
+    border-bottom: 4px solid #cab37c;
+    border-right: 4px solid #cab37c;
+    position: absolute;
+    bottom: -10px;
+    right: -10px;
+    }
+
 body{
     font-family: "Inter Tight", sans-serif;
     background-color: whitesmoke;
@@ -29,4 +55,8 @@ body{
     align-items: center;
     max-width: 100%;
 
+}
+
+.w-section{
+    margin-top: 20px;
 }

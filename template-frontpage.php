@@ -18,7 +18,7 @@
 			<div class="about-us-header">
 				<h2>O nas</h2>
 			</div>
-			<div class="row">
+			<div class="row quote about_us__wrapper">
 				<div class="col-lg-6 col-md-6 col-sm-12 about_us__col">
 					<div class="">
 						<h3 class="about_us__heading">Zabudowa meblowa dla inwestycji</h3>
