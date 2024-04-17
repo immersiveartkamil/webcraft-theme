@@ -20,6 +20,20 @@ border-top: 0.5px solid white;
 }
 
 .services-row-name {
-    width: 20%;
-    align-items: center;
+    width: 30%;
+    font-size: 30px;
+    margin-left: 2%;
+    text-align: left;
+}
+
+.services-row-number {
+    font-size: 30px;
+    font-weight: 100;
+    margin-left: 2%;
+}
+
+.services-row-description {
+    width: 50%;
+    font-weight: 200;
+    text-align: right;
 }
