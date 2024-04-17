@@ -4,3 +4,5 @@ babel.js
 babel.config.js
 package-lock.json
 dist
+main.css
+main.min.css

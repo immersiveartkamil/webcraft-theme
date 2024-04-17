@@ -13,7 +13,7 @@
 		</div>
 	</section>
 
-	<section id="about-us" class="w-section about-us">
+	<section id="o-nas" class="w-section about-us">
 		<div class="container about_us">
 			<div class="about-us-header">
 				<h2>O nas</h2>
