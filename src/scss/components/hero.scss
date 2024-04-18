@@ -19,6 +19,7 @@
     text-align: center;
     width: 100%;
     z-index: 1;
+    font-weight: 200;
 }
 
 .slider {
@@ -40,21 +41,18 @@
 }
 
 .slider .slide:nth-child(1) {
-    // background-image: url('http://izi-design.local/wp-content/uploads/2024/04/IMG_1532photo.jpg');
     background: rgba(0, 0, 0, 0.4) url('http://izi-design.local/wp-content/uploads/2024/04/IMG_1532photo.jpg');
     background-blend-mode: darken;
     animation-delay: 0s;
 }
 
 .slider .slide:nth-child(2) {
-    // background-image: url('http://izi-design.local/wp-content/uploads/2024/04/POPR_0E8A1572DAL-MEBLE-T.jpg');
     background: rgba(0, 0, 0, 0.4) url('http://izi-design.local/wp-content/uploads/2024/04/POPR_0E8A1572DAL-MEBLE-T.jpg');
     background-blend-mode: darken;
     animation-delay: -3.5s;
 }
 
 .slider .slide:nth-child(3) {
-    // background-image: url('http://izi-design.local/wp-content/uploads/2024/04/Izi_Design_Saudi_Aramco_Paulina_Hinz_Photos-1.jpg');
     background: rgba(0, 0, 0, 0.4) url('http://izi-design.local/wp-content/uploads/2024/04/Izi_Design_Saudi_Aramco_Paulina_Hinz_Photos-1.jpg');
     background-blend-mode: darken;
     animation-delay: -7s;

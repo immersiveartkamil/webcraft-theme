@@ -31,7 +31,7 @@
                     <nav id="site-navigation" class="main-navigation container">
                         <div class="site-branding">
                             <a href="<?php echo get_home_url(); ?>">
-                                <img src="http://izi-design.local/wp-content/uploads/2024/04/65562565bc0046000ff95215_optimized_403.webp" alt="" width="150" height="80"></a>
+                                <img class="branding-logo" src="http://izi-design.local/wp-content/uploads/2024/04/65562565bc0046000ff95215_optimized_403.webp" alt=""></a>
                         </div>
                         <div class="mobile-hamburger">
                             <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
@@ -116,29 +116,41 @@
                 }
 
                 requestAnimationFrame(raf);
+                // Grab all elements that have a "data-target" attribute
+                const regexPattern = /^http:\/\/localhost:3000\/#.*$/;
+                const currentPage = window.location.href;
 
-                // Grab all lists that have a "page_item" attribute
-                const scrollButtons = document.querySelectorAll("li.page_item");
-                // For each element, listen to a "click" event
-                scrollButtons.forEach((button) => {
-                    button.addEventListener("click", (e) => {
-                        e.preventDefault();
+                if (regexPattern.test(currentPage) || currentPage == "http://localhost:3000/") {
+                    const scrollButtons = document.querySelectorAll('[data-target]');
 
-                        // get the DOM element by the ID (data-target value) here using dummy ID need to be fixed in the future for other elements
-                        var target = button.dataset.text,
-                            $el = document.getElementsByClassName("about_us");
-
-                        // Use lenis.scrollTo() to scroll the page to the right element
-                        lenis.scrollTo($el[0], {
-                            offset: 0,
-                            immediate: false,
-                            duration: 3,
-                            easing: (x) =>
-                                x < 0.5 ? 4 * x * x * x : 1 - Math.pow(-2 * x + 2, 3) / 2, // https://easings.net
+                    // For each element, listen to a "click" event
+                    scrollButtons.forEach(button => {
+                        button.addEventListener('click', e => {
+                            e.preventDefault();
+                            // get the DOM element by the ID (data-target value)
+                            var target = button.dataset.target,
+                                $el = document.getElementById(target.replace('#', ''));
+                            // Use lenis.scrollTo() to scroll the page to the right element
+                            if ($el.id == "kontakt") {
+                                lenis.scrollTo($el, {
+                                    offset: -200,
+                                    immediate: false,
+                                    duration: 3,
+                                    easing: (x) => (x < 0.5 ? 4 * x * x * x : 1 - Math.pow(-2 * x + 2, 3) / 2), // https://easings.net
+                                });
+                            } else {
+                                lenis.scrollTo($el, {
+                                    offset: -50,
+                                    immediate: false,
+                                    duration: 3,
+                                    easing: (x) => (x < 0.5 ? 4 * x * x * x : 1 - Math.pow(-2 * x + 2, 3) / 2), // https://easings.net
+                                });
+                            }
                         });
                     });
-                });
-
+                } else {
+                    console.log(currentPage);
+                }
                 requestAnimationFrame(raf);
             </script>
             <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.4/gsap.min.js"></script>

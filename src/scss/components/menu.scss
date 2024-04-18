@@ -123,21 +123,23 @@ header{
 
     .site-branding{
         width:50%;
-        a{
             img{
                 // padding-top: 20px;
                 // max-width: 80px;
                 // max-height: 80px;
-                max-width: 150px!important;
-                max-height: 80px!important;
+                
+                max-width: 130px!important;
+                max-height: 60px!important;
             }
-        }
+        
        
     }
 
-    
+
 
 }
+
+
 
 }
 
@@ -158,8 +160,8 @@ header{
 
     .nav-menu{
         justify-self: flex-start;
-        gap:20px;
-        width: 100%;
+        gap:10px;
+        width: 50vw;
     }
 
 }
@@ -209,6 +211,7 @@ div.nav-menu li {
 div.nav-menu a {
     color: white;
     text-decoration: none;
+    font-weight: 200;
     display: block;
     font-family: Inter Tight;
     transition: .5s;
@@ -263,6 +266,21 @@ div.nav-menu .children .children {
     left: 100%;
     top: 0;
     background: transparent;
+}
+
+.site-branding {
+    width: 50%;
+
+    img {
+        // padding-top: 20px;
+        // max-width: 80px;
+        // max-height: 80px;
+
+        max-width: 260px !important;
+        max-height: 120px !important;
+    }
+
+
 }
 
 }

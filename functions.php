@@ -114,3 +114,64 @@ function acf_wysiwyg_remove_wpautop()
     remove_filter('acf_the_content', 'wpautop');
 }
 add_action('acf/init', 'acf_wysiwyg_remove_wpautop');
+
+add_filter(
+    'nav_menu_link_attributes',
+    function ($atts, $item, $args) {
+        if (22 === $item->ID) { // change 1161 to the ID of your menu item.
+            $atts['data-target'] = '#o-nas';
+        }
+
+        return $atts;
+    },
+    10,
+    3
+);
+add_filter(
+    'nav_menu_link_attributes',
+    function ($atts, $item, $args) {
+        if (23 === $item->ID) { // change 1161 to the ID of your menu item.
+            $atts['data-target'] = '#services';
+        }
+
+        return $atts;
+    },
+    10,
+    3
+);
+add_filter(
+    'nav_menu_link_attributes',
+    function ($atts, $item, $args) {
+        if (24 === $item->ID) { // change 1161 to the ID of your menu item.
+            $atts['data-target'] = '#portfolio';
+        }
+
+        return $atts;
+    },
+    10,
+    3
+);
+add_filter(
+    'nav_menu_link_attributes',
+    function ($atts, $item, $args) {
+        if (25 === $item->ID) { // change 1161 to the ID of your menu item.
+            $atts['data-target'] = '#kontakt';
+        }
+
+        return $atts;
+    },
+    10,
+    3
+);
+add_filter(
+    'nav_menu_link_attributes',
+    function ($atts, $item, $args) {
+        if (41 === $item->ID) { // change 1161 to the ID of your menu item.
+            $atts['data-target'] = '#partnerzy';
+        }
+
+        return $atts;
+    },
+    10,
+    3
+);
