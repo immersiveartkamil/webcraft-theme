@@ -44,18 +44,43 @@
 		</div>
 		<div class="col-lg-12 services-row">
 			<div class="services-row-number">01</div>
-			<div class="services-row-name">Mebel kuchenny na wymiar</div>
-			<div class="services-row-description">Projektujemy i wykonujemy meble kuchenne dostosowane do Twoich potrzeb i preferencji. Oferujemy szeroki wybór materiałów i wzorów, aby stworzyć idealną kuchnię dla Ciebie.</div>
+			<div class="services-row-name">Meble na wymiar do apartamentów inwestycyjnych</div>
+			<div class="services-row-description">Kuchnie, szafy, łazienki, przedpokoje</div>
 		</div>
 		<div class="col-lg-12 services-row">
 			<div class="services-row-number">02</div>
-			<div class="services-row-name">Szafy wnękowe</div>
-			<div class="services-row-description">Zajmujemy się produkcją szaf wnękowych, które optymalnie wykorzystują przestrzeń Twojego domu. Dzięki indywidualnemu podejściu zapewniamy idealne dopasowanie do wymiarów i stylu wnętrza.</div>
+			<div class="services-row-name"> Zabudowy fit-out</div>
+			<div class="services-row-description">Realizacja koncepcji wg projektu architekta. Okładziny ścienne, lamele, lady recepcyjne</div>
 		</div>
 		<div class="col-lg-12 services-row">
 			<div class="services-row-number">03</div>
-			<div class="services-row-name">Meble do salonu</div>
-			<div class="services-row-description">Tworzymy eleganckie i funkcjonalne meble do salonu, które dodadzą charakteru Twojemu wnętrzu. Nasze projekty są starannie wykonane, aby spełnić oczekiwania nawet najbardziej wymagających klientów.</div>
+			<div class="services-row-name">Hotele</div>
+			<div class="services-row-description">Wyposażamy hotele od fit-out holu i recepcji po pokój hotelowy wraz z agd i meblami ruchomymi</div>
+		</div>
+		<div class="col-lg-12 services-row">
+			<div class="services-row-number">04</div>
+			<div class="services-row-name">Zabudowy komercyjne</div>
+			<div class="services-row-description">Salon optyczny, klinika stomatologiczna</div>
+		</div>
+		<div class="col-lg-12 services-row">
+			<div class="services-row-number">05</div>
+			<div class="services-row-name">Agd</div>
+			<div class="services-row-description">Kompleksowe doradztwo w zakresie doboru sprzętów agd dla inwestycji wraz z montażem</div>
+		</div>
+		<div class="col-lg-12 services-row">
+			<div class="services-row-number">06</div>
+			<div class="services-row-name">Meble ruchome</div>
+			<div class="services-row-description">Łóżka tapicerowane wraz z materacem , stoły, krzesła, stoliki, kanapy</div>
+		</div>
+		<div class="col-lg-12 services-row">
+			<div class="services-row-number">07</div>
+			<div class="services-row-name">Biura</div>
+			<div class="services-row-description">Wyposażamy biura w meble na wymiar z atestem ppoż. Fit-out, kuchnie, szafy na akta, recepcje, coffe point.</div>
+		</div>
+		<div class="col-lg-12 services-row">
+			<div class="services-row-number">08</div>
+			<div class="services-row-name">Projekty</div>
+			<div class="services-row-description">Twoja inwestycja nie ma jeszcze projektu? My wykonamy go dla Ciebie</div>
 		</div>
 	</section>
 	<section id="portfolio" class="w-section portfolio">
