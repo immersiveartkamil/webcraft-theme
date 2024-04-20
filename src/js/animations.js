@@ -147,9 +147,9 @@ function checkingGsap() {
     const footerTimeline = gsap.timeline();
 
     footerTimeline.to(".footer", {
-      height: "90vh",
-      width: "90vw",
       opacity: 1,
+      width: "90vw",
+      height: "90vh",
     });
 
     ScrollTrigger.create({
@@ -158,6 +158,30 @@ function checkingGsap() {
       end: "center bottom",
       scrub: true,
       animation: footerTimeline,
+    });
+
+    // Animation for form section
+    gsap.from(".form", {
+      opacity: 0,
+      y: 20,
+      scrollTrigger: {
+        trigger: ".form",
+        start: "top bottom",
+        end: "bottom bottom",
+        scrub: 1,
+      },
+    });
+
+    // Animation for map section
+    gsap.from(".mapa", {
+      opacity: 0,
+      y: 20,
+      scrollTrigger: {
+        trigger: ".mapa",
+        start: "top bottom",
+        end: "bottom bottom",
+        scrub: 1,
+      },
     });
   }
 }

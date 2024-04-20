@@ -119,7 +119,7 @@
 				</div>
 			</div>
 	</section>
-	<section id="partnerzy" class="w-section partnerzy">
+	<!-- <section id="partnerzy" class="w-section partnerzy">
 		<div class="container">
 			<h2>Partnerzy</h2>
 			<div class="row">
@@ -211,7 +211,7 @@
 				</div>
 			</div>
 		</div>
-	</section>
+	</section> -->
 
 
 

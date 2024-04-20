@@ -38,27 +38,29 @@
         <!-- Sekcja Formularza Kontaktowego -->
         <div class="row">
             <div class="col-lg-5">
-                <h3>Co możemy dla Ciebie zrobić?</h3>
-                <form action="/submit_contact_form" method="post">
-                    <div class="form-wrapper">
-                        <div class="form-group">
-                            <input type="text" id="name" name="name" class="form-control" placeholder="Twoje imię i nazwisko" required>
+                <div class="form">
+                    <h3>Co możemy dla Ciebie zrobić?</h3>
+                    <form action="/submit_contact_form" method="post">
+                        <div class="form-wrapper">
+                            <div class="form-group">
+                                <input type="text" id="name" name="name" class="form-control" placeholder="Twoje imię i nazwisko" required>
+                            </div>
+                            <div class="form-group">
+                                <input type="email" id="email" name="email" class="form-control" placeholder="Twój adres e-mail" required>
+                            </div>
+                            <div class="form-group">
+                                <input type="tel" id="phone" name="phone" class="form-control" placeholder="Twój numer telefonu" required>
+                            </div>
+                            <button type="submit" class="btn btn-primary">Wyślij</button>
                         </div>
-                        <div class="form-group">
-                            <input type="email" id="email" name="email" class="form-control" placeholder="Twój adres e-mail" required>
-                        </div>
-                        <div class="form-group">
-                            <input type="tel" id="phone" name="phone" class="form-control" placeholder="Twój numer telefonu" required>
-                        </div>
-                        <button type="submit" class="btn btn-primary">Wyślij</button>
-                    </div>
+                </div>
             </div>
 
-            <!-- Sekcja Mapy -->
             <div class="col-lg-7">
-                <h3>Lokalizacja</h3>
-                <!-- Tutaj dodaj mapę Google Maps lub inną mapę -->
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d192156.5291365682!2d18.41307646446805!3d54.37215855915643!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46fd7e3b1254c995%3A0x72ef99e6b3fcf079!2sGda%C5%84sk!5e0!3m2!1spl!2spl!4v1649751851680!5m2!1spl!2spl" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                <div class="mapa">
+                    <h3>Lokalizacja</h3>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d192156.5291365682!2d18.41307646446805!3d54.37215855915643!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46fd7e3b1254c995%3A0x72ef99e6b3fcf079!2sGda%C5%84sk!5e0!3m2!1spl!2spl!4v1649751851680!5m2!1spl!2spl" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                </div>
             </div>
         </div>
     </div>
