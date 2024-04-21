@@ -2,21 +2,21 @@
     <div class="container">
         <p class="footer__main_heading">Skontaktuj się z nami!</p>
         <div class="row">
-            <div class="col-lg-3 col-md-6 col-sm-12 footer__col">
+            <div class="col-lg-3 col-md-6 col-sm-6 footer__col">
                 <p class="footer__heading">Email</p>
                 <p><a href="mailto:biuro@izidesign.pl">biuro@izidesign.pl</a></p>
             </div>
-            <div class="col-lg-3 col-md-6 col-sm-12 footer__col ">
+            <div class="col-lg-3 col-md-6 col-sm-6 footer__col ">
                 <p class="footer__heading">Kontakt</p>
                 <p> <a href="tel:+48692426739">+ 48 692 426 739</a> <br>
                 </p>
             </div>
-            <div class="col-lg-3 col-md-6 col-sm-12 footer__col ">
+            <div class="col-lg-3 col-md-6 col-sm-6 footer__col ">
                 <p class="footer__heading">Adres</p>
                 <p>Al. Rzeczypospolitej 4D <br>
                     80-369 Gdańsk</p>
             </div>
-            <div class="col-lg-3 col-md-6 col-sm-12 footer__col ">
+            <div class="col-lg-3 col-md-6 col-sm-6 footer__col ">
                 <p class="footer__heading">Social Media</p>
                 <p class="social-media">
                     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
@@ -37,7 +37,7 @@
         </div>
         <!-- Sekcja Formularza Kontaktowego -->
         <div class="row">
-            <div class="col-lg-5">
+            <div class="col-lg-5 col-md-6 col-sm-12">
                 <div class="form">
                     <h3>Co możemy dla Ciebie zrobić?</h3>
                     <form action="/submit_contact_form" method="post">
@@ -56,7 +56,7 @@
                 </div>
             </div>
 
-            <div class="col-lg-7">
+            <div class="col-lg-7 col-md-6 col-sm-12">
                 <div class="mapa">
                     <h3>Lokalizacja</h3>
                     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d192156.5291365682!2d18.41307646446805!3d54.37215855915643!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46fd7e3b1254c995%3A0x72ef99e6b3fcf079!2sGda%C5%84sk!5e0!3m2!1spl!2spl!4v1649751851680!5m2!1spl!2spl" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>

@@ -108,3 +108,113 @@ svg:hover {
     align-items: center;
     gap: 3px;
 }
+
+@media(max-width:799px) {
+
+    .portfolio {
+            background-color: black;
+            display: flex;
+            align-items: center;
+            height: 100vh;
+            position: relative;
+            /* Add position relative to allow absolute positioning */
+        }
+    
+        .portfolio::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 80vw;
+            /* Set the width of the top border to 80% of viewport width */
+            height: 1px;
+            /* Set the height of the top border */
+            background-color: rgba(220, 220, 220, 0.397);
+            /* Set the color of the top border */
+        }
+    
+        .portfolio-container {
+            width: 100vw;
+            margin: 0px;
+        }
+    
+    
+        .portfolio-header h3 {
+            margin: 0;
+            font-size: 50px;
+            font-weight: 100;
+        }
+    
+        .slider-container {
+            display: flex;
+            flex-wrap: nowrap;
+            overflow-x: auto;
+            margin-bottom: 2px;
+            padding-bottom: 2px;
+            gap: 0px;
+        }
+    
+        .portfolio-image {
+            width: 100%;
+            height: 500px;
+            /* Ustawiaj wysokość obrazków na stałe */
+            overflow: hidden;
+        }
+    
+        .portfolio-image img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            /* Przycina lub rozciąga obrazek, aby wypełnił kontener */
+        }
+    
+        .empty-space {
+            display: flex;
+            align-items: center;
+        }
+    
+        svg:hover {
+            opacity: 1;
+            transform: scale(1);
+            transition: opacity 0.3s, transform 0.3s;
+        }
+    
+        .svg-wrapper {
+            margin-right: 30px;
+            display: flex;
+            align-items: center;
+            /* Aligns items vertically */
+            gap: 3px;
+            /* Add gap between child elements */
+        }
+    
+        .gallery-header {
+            margin: 0;
+            display: flex;
+            /* Align items to the right */
+            color: white;
+            margin-top: 10px;
+            justify-content: flex-start;
+        }
+    
+        .gallery-header h3 {
+            margin: 0;
+            font-size: 50px;
+            font-weight: 100;
+        }
+    
+        .gallery-header .svg-wrapper {
+            display: flex;
+            align-items: center;
+            gap: 3px;
+        }
+
+        .slider-container .portfolio-image:nth-child(2) {
+            display: none;
+        }
+
+        .slider-container .portfolio-image:nth-child(3) {
+            display: none;
+        }
+    }

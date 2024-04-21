@@ -5,11 +5,11 @@
     min-height: 60vh;
     border-top-left-radius: 2em;
     border-top-right-radius: 2em;
-    width: 40%;
+    width: 100%;
     min-width: 10%;
     position: relative;
     bottom: 0;
-    opacity: 0.5;
+    opacity: 1;
     margin: 0 auto;
     overflow: hidden;
     max-height: 90vh;
@@ -198,3 +198,209 @@ a,p{
 .footer .btn-primary:hover {
     background-color: #f0f0f0;
 }
+
+@media(max-width:799px) {
+    .footer {
+            background-color: white;
+            color: black;
+            min-height: 60vh;
+            border-top-left-radius: 2em;
+            border-top-right-radius: 2em;
+            width: 100%;
+            min-width: 10%;
+            position: relative;
+            bottom: 0;
+            opacity: 1;
+            margin: 0 auto;
+            overflow: hidden;
+            max-height: fit-content;
+            .row h3 {
+                font-weight: 100;
+                font-size: 10px;
+            }
+    
+    
+            a,
+            p {
+                color: black;
+                text-decoration: none;
+                font-size: 15px;
+                font-weight: 200;
+            }
+    
+            &__col {
+                border-top: 0.1px solid rgba(220, 220, 220, 0.397);
+                border-bottom: 0.1px solid rgba(220, 220, 220, 0.397);
+                min-height: 15vh;
+                display: flex;
+                flex-direction: column;
+                justify-content: flex-start;
+                align-items: center;
+                width: 50%;
+            }
+    
+    
+            .social-media svg {
+                height: 30px;
+                width: 30px;
+                margin: 0 3px;
+                opacity: 0.8;
+                /* Initial opacity */
+                transition: opacity 0.3s, color 0.3s;
+                /* Transition for opacity and color */
+                fill: black;
+                /* Initial color */
+            }
+    
+            .social-media svg:hover {
+                opacity: 1;
+                /* Hover opacity */
+                fill: goldenrod;
+                /* Hover color */
+            }
+        }
+    
+        .footer .footer__heading {
+            font-size: 1.4em;
+            padding-top: 1em;
+            font-weight: 100;
+            letter-spacing: 3px;
+            text-transform: uppercase;
+            margin: 0;
+        }
+    
+        .footer .footer__main_heading {
+            padding-top: 2em;
+            text-transform: uppercase;
+            font-size: 2em;
+            text-align: center;
+            letter-spacing: 3px;
+            font-weight: 200;
+            margin: 0;
+            margin-bottom: 20px;
+        }
+    
+        .footer form .form-group {
+            margin-bottom: 20px;
+        }
+    
+        .footer form input[type="text"],
+        .footer form input[type="email"],
+        .footer form input[type="tel"],
+        .footer form textarea {
+            width: 100%;
+            /* Set width to 25% */
+            background-color: black;
+            color: white;
+            border: 1px solid #555;
+            /* Border color */
+            border-radius: 5px;
+            padding: 10px;
+            box-sizing: border-box;
+        }
+    
+        .footer form input[type="text"],
+        .footer form input[type="email"],
+        .footer form input[type="tel"] {
+            height: 40px;
+            /* Adjust height as needed */
+        }
+    
+        .footer form textarea {
+            min-height: 100px;
+            /* Adjust height as needed */
+        }
+    
+        .footer form label {
+            display: block;
+            margin-bottom: 5px;
+            color: white;
+        }
+    
+        .footer form button {
+            width: 15%;
+            /* Set width to 50% */
+            margin: 0 auto;
+            /* Center the button */
+            border-radius: 20px;
+            /* Adjust as needed */
+            background-color: white;
+            color: black;
+            border: none;
+            padding: 10px 0;
+        }
+    
+        .footer form button:hover {
+            background-color: #f0f0f0;
+        }
+    
+        /* Adjustments for the map section */
+        .footer iframe {
+            width: 100%;
+            height: 70%;
+        }
+    
+        .footer .row {
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+        }
+    
+        .footer .row .col-lg-6 {
+            width: 48%;
+            /* Adjust as needed */
+        }
+    
+        .footer .form-wrapper {
+            display: flex;
+            flex-direction: column;
+            /* Arrange the form elements in a column */
+            align-items: left;
+            /* Center-align the contents horizontally */
+            width: 60%;
+        }
+    
+        .footer .form-group {
+            margin-bottom: 20px;
+        }
+    
+        .footer .form-control {
+            width: 100%;
+            /* Set width to 50% */
+            background-color: black;
+            color: white;
+            border: 1px solid #555;
+            /* Border color */
+            border-radius: 5px;
+            padding: 10px;
+            box-sizing: border-box;
+            margin-bottom: 10px;
+            /* Add some space between form controls */
+        }
+    
+        .footer .form-control:focus {
+            outline: none;
+            /* Remove outline on focus */
+        }
+    
+        .footer .form-group label {
+            display: block;
+            margin-bottom: 5px;
+            color: white;
+        }
+    
+        .footer .btn-primary {
+            width: 30%;
+            /* Set width to 50% */
+            border-radius: 20px;
+            /* Adjust as needed */
+            background-color: rgba(255, 255, 255, 0.692);
+            color: black;
+            border: none;
+            padding: 10px 0;
+        }
+    
+        .footer .btn-primary:hover {
+            background-color: #f0f0f0;
+        }
+        }

@@ -4,7 +4,7 @@
 }
 
 .go-black {
-  color: rgb(255, 255, 255) !important;
+  color: rgb(255, 255, 255);
 }
 
 header {
@@ -22,7 +22,7 @@ header {
 
 @media (max-width: 799px) {
   header {
-    background-color: #f5f5f5;
+    background-color: transparent;
   }
   .menu-active {
     transform: translateX(0) !important;
@@ -36,7 +36,7 @@ header {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    background-color: #f5f5f5;
+    background-color: transparent;
     height: 87px;
   }
   .mobile-hamburger {
@@ -46,7 +46,7 @@ header {
     align-items: flex-end;
   }
   .mobile-hamburger svg {
-    color: black;
+    color: rgb(255, 255, 255);
   }
   .custom-menu {
     position: fixed;
@@ -61,6 +61,7 @@ header {
     bottom: 0;
     left: 0;
     background-color: #f5f5f5;
+    color: black !important;
     transform: translateX(100%);
     opacity: 1;
     transition: 0.4s;
@@ -381,7 +382,7 @@ section {
 }
 
 .slider .slide:nth-child(1) {
-  background: rgba(0, 0, 0, 0.4) url("http://izi-design.local/wp-content/uploads/2024/04/IMG_1532photo.jpg");
+  background: rgba(0, 0, 0, 0.4) url("http://izi-design.local/wp-content/uploads/2024/04/eds6.jpg");
   background-blend-mode: darken;
   animation-delay: 0s;
   background-position: center center;
@@ -389,7 +390,7 @@ section {
 }
 
 .slider .slide:nth-child(2) {
-  background: rgba(0, 0, 0, 0.4) url("http://izi-design.local/wp-content/uploads/2024/04/POPR_0E8A1572DAL-MEBLE-T.jpg");
+  background: rgba(0, 0, 0, 0.4) url("http://izi-design.local/wp-content/uploads/2024/04/IMG-20230222-WA0009.jpg");
   background-blend-mode: darken;
   animation-delay: -3.5s;
   background-position: center center;
@@ -397,7 +398,7 @@ section {
 }
 
 .slider .slide:nth-child(3) {
-  background: rgba(0, 0, 0, 0.4) url("http://izi-design.local/wp-content/uploads/2024/04/Izi_Design_Saudi_Aramco_Paulina_Hinz_Photos-1.jpg");
+  background: rgba(0, 0, 0, 0.4) url("http://izi-design.local/wp-content/uploads/2024/04/0E8A6352-12-scaled.jpg");
   background-blend-mode: darken;
   animation-delay: -7s;
   background-position: center center;
@@ -456,6 +457,12 @@ section {
   font-weight: 300;
 }
 
+@media (max-width: 799px) {
+  .about_us .video {
+    height: 100%;
+    width: 90%;
+  }
+}
 .services-row {
   display: flex;
   width: 100%;
@@ -496,6 +503,46 @@ section {
   text-align: right;
 }
 
+@media (max-width: 799px) {
+  .services-row {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 20px;
+    min-height: 30vh;
+    border-top: 1px solid rgba(220, 220, 220, 0.397);
+    flex-direction: column;
+  }
+  .services {
+    background-color: black;
+    color: white;
+  }
+  .services-header h3 {
+    margin-left: 5%;
+    font-size: 80px;
+    font-weight: 100;
+  }
+  .services-row-name {
+    font-weight: 200;
+    font-size: 24px;
+    margin-left: 2%;
+    text-align: left;
+    align-self: baseline;
+  }
+  .services-row-number {
+    font-size: 40px;
+    font-weight: 100;
+    margin-left: 2%;
+  }
+  .services-row-description {
+    font-weight: 150;
+    font-size: 18px;
+    text-align: right;
+    align-self: flex-end;
+    padding: 10px;
+  }
+}
 .portfolio {
   background-color: black;
   display: flex;
@@ -607,17 +654,110 @@ svg:hover {
   gap: 3px;
 }
 
+@media (max-width: 799px) {
+  .portfolio {
+    background-color: black;
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    position: relative;
+    /* Add position relative to allow absolute positioning */
+  }
+  .portfolio::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 80vw;
+    /* Set the width of the top border to 80% of viewport width */
+    height: 1px;
+    /* Set the height of the top border */
+    background-color: rgba(220, 220, 220, 0.397);
+    /* Set the color of the top border */
+  }
+  .portfolio-container {
+    width: 100vw;
+    margin: 0px;
+  }
+  .portfolio-header h3 {
+    margin: 0;
+    font-size: 50px;
+    font-weight: 100;
+  }
+  .slider-container {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    margin-bottom: 2px;
+    padding-bottom: 2px;
+    gap: 0px;
+  }
+  .portfolio-image {
+    width: 100%;
+    height: 500px;
+    /* Ustawiaj wysokość obrazków na stałe */
+    overflow: hidden;
+  }
+  .portfolio-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    /* Przycina lub rozciąga obrazek, aby wypełnił kontener */
+  }
+  .empty-space {
+    display: flex;
+    align-items: center;
+  }
+  svg:hover {
+    opacity: 1;
+    transform: scale(1);
+    transition: opacity 0.3s, transform 0.3s;
+  }
+  .svg-wrapper {
+    margin-right: 30px;
+    display: flex;
+    align-items: center;
+    /* Aligns items vertically */
+    gap: 3px;
+    /* Add gap between child elements */
+  }
+  .gallery-header {
+    margin: 0;
+    display: flex;
+    /* Align items to the right */
+    color: white;
+    margin-top: 10px;
+    justify-content: flex-start;
+  }
+  .gallery-header h3 {
+    margin: 0;
+    font-size: 50px;
+    font-weight: 100;
+  }
+  .gallery-header .svg-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 3px;
+  }
+  .slider-container .portfolio-image:nth-child(2) {
+    display: none;
+  }
+  .slider-container .portfolio-image:nth-child(3) {
+    display: none;
+  }
+}
 .footer {
   background-color: white;
   color: black;
   min-height: 60vh;
   border-top-left-radius: 2em;
   border-top-right-radius: 2em;
-  width: 40%;
+  width: 100%;
   min-width: 10%;
   position: relative;
   bottom: 0;
-  opacity: 0.5;
+  opacity: 1;
   margin: 0 auto;
   overflow: hidden;
   max-height: 90vh;
@@ -802,6 +942,186 @@ svg:hover {
   background-color: #f0f0f0;
 }
 
+@media (max-width: 799px) {
+  .footer {
+    background-color: white;
+    color: black;
+    min-height: 60vh;
+    border-top-left-radius: 2em;
+    border-top-right-radius: 2em;
+    width: 100%;
+    min-width: 10%;
+    position: relative;
+    bottom: 0;
+    opacity: 1;
+    margin: 0 auto;
+    overflow: hidden;
+    max-height: fit-content;
+  }
+  .footer .row h3 {
+    font-weight: 100;
+    font-size: 10px;
+  }
+  .footer a,
+  .footer p {
+    color: black;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 200;
+  }
+  .footer__col {
+    border-top: 0.1px solid rgba(220, 220, 220, 0.397);
+    border-bottom: 0.1px solid rgba(220, 220, 220, 0.397);
+    min-height: 15vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 50%;
+  }
+  .footer .social-media svg {
+    height: 30px;
+    width: 30px;
+    margin: 0 3px;
+    opacity: 0.8;
+    /* Initial opacity */
+    transition: opacity 0.3s, color 0.3s;
+    /* Transition for opacity and color */
+    fill: black;
+    /* Initial color */
+  }
+  .footer .social-media svg:hover {
+    opacity: 1;
+    /* Hover opacity */
+    fill: goldenrod;
+    /* Hover color */
+  }
+  .footer .footer__heading {
+    font-size: 1.4em;
+    padding-top: 1em;
+    font-weight: 100;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    margin: 0;
+  }
+  .footer .footer__main_heading {
+    padding-top: 2em;
+    text-transform: uppercase;
+    font-size: 2em;
+    text-align: center;
+    letter-spacing: 3px;
+    font-weight: 200;
+    margin: 0;
+    margin-bottom: 20px;
+  }
+  .footer form .form-group {
+    margin-bottom: 20px;
+  }
+  .footer form input[type=text],
+  .footer form input[type=email],
+  .footer form input[type=tel],
+  .footer form textarea {
+    width: 100%;
+    /* Set width to 25% */
+    background-color: black;
+    color: white;
+    border: 1px solid #555;
+    /* Border color */
+    border-radius: 5px;
+    padding: 10px;
+    box-sizing: border-box;
+  }
+  .footer form input[type=text],
+  .footer form input[type=email],
+  .footer form input[type=tel] {
+    height: 40px;
+    /* Adjust height as needed */
+  }
+  .footer form textarea {
+    min-height: 100px;
+    /* Adjust height as needed */
+  }
+  .footer form label {
+    display: block;
+    margin-bottom: 5px;
+    color: white;
+  }
+  .footer form button {
+    width: 15%;
+    /* Set width to 50% */
+    margin: 0 auto;
+    /* Center the button */
+    border-radius: 20px;
+    /* Adjust as needed */
+    background-color: white;
+    color: black;
+    border: none;
+    padding: 10px 0;
+  }
+  .footer form button:hover {
+    background-color: #f0f0f0;
+  }
+  /* Adjustments for the map section */
+  .footer iframe {
+    width: 100%;
+    height: 70%;
+  }
+  .footer .row {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+  .footer .row .col-lg-6 {
+    width: 48%;
+    /* Adjust as needed */
+  }
+  .footer .form-wrapper {
+    display: flex;
+    flex-direction: column;
+    /* Arrange the form elements in a column */
+    align-items: left;
+    /* Center-align the contents horizontally */
+    width: 60%;
+  }
+  .footer .form-group {
+    margin-bottom: 20px;
+  }
+  .footer .form-control {
+    width: 100%;
+    /* Set width to 50% */
+    background-color: black;
+    color: white;
+    border: 1px solid #555;
+    /* Border color */
+    border-radius: 5px;
+    padding: 10px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+    /* Add some space between form controls */
+  }
+  .footer .form-control:focus {
+    outline: none;
+    /* Remove outline on focus */
+  }
+  .footer .form-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: white;
+  }
+  .footer .btn-primary {
+    width: 30%;
+    /* Set width to 50% */
+    border-radius: 20px;
+    /* Adjust as needed */
+    background-color: rgba(255, 255, 255, 0.692);
+    color: black;
+    border: none;
+    padding: 10px 0;
+  }
+  .footer .btn-primary:hover {
+    background-color: #f0f0f0;
+  }
+}
 .partnerzy {
   min-height: 90vh;
 }

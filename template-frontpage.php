@@ -64,7 +64,7 @@
 		</div>
 		<div class="col-lg-12 services-row">
 			<div class="services-row-number">05</div>
-			<div class="services-row-name">Agd</div>
+			<div class="services-row-name">AGD</div>
 			<div class="services-row-description">Kompleksowe doradztwo w zakresie doboru sprzętów agd dla inwestycji wraz z montażem</div>
 		</div>
 		<div class="col-lg-12 services-row">
@@ -103,9 +103,9 @@
 				</div>
 			</div>
 			<div class="slider-container">
-				<div class="portfolio-image"><img src="http://izi-design.local/wp-content/uploads/2024/04/IMG_1661photo.jpg"></div>
-				<div class="portfolio-image"><img src="http://izi-design.local/wp-content/uploads/2024/04/IMG_1642photo.jpg"></div>
-				<div class="portfolio-image"><img src="http://izi-design.local/wp-content/uploads/2024/04/IMG_1555photo.jpg"></div>
+				<div class="portfolio-image"><img src="http://izi-design.local/wp-content/uploads/2024/04/eds10.jpg"></div>
+				<div class="portfolio-image"><img src="http://izi-design.local/wp-content/uploads/2024/04/eds9.jpg"></div>
+				<div class="portfolio-image"><img src="http://izi-design.local/wp-content/uploads/2024/04/eds8.jpg"></div>
 			</div>
 			<div class="gallery-header">
 				<h3>Realizacje</h3>

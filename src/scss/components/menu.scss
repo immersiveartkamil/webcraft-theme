@@ -5,7 +5,7 @@
     background-color: #000000;
 }
 .go-black{
-    color:rgb(255, 255, 255)!important;
+    color:rgb(255, 255, 255);
 }
 
 header{
@@ -22,7 +22,7 @@ header{
 }
 @media(max-width:799px){
     header{
-        background-color: #f5f5f5;
+        background-color: transparent;
     }
     .menu-active{
         transform: translateX(0)!important;
@@ -37,7 +37,7 @@ header{
         display: flex;
         justify-content: space-evenly;
         align-items: center;
-        background-color: #f5f5f5;
+        background-color: transparent;
         height: 87px;
     }
 
@@ -47,7 +47,7 @@ header{
         justify-content: center;
         align-items: flex-end;
         svg{
-            color:black;
+            color:rgb(255, 255, 255);
         }
 
     }
@@ -65,6 +65,7 @@ header{
         bottom: 0;
         left: 0;
         background-color: #f5f5f5;
+        color: black!important;
         transform: translateX(calc(100%));
         opacity: 1;
         transition: .4s;
@@ -129,7 +130,6 @@ header{
                 max-height: 60px!important;
             }
     }
-
 
 
 }
