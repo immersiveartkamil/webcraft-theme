@@ -41,7 +41,7 @@
                 <div class="form">
                     <h3>Co możemy dla Ciebie zrobić?</h3>
                     <div class="footer-contact">
-                        <?php echo do_shortcode('[contact-form-7 id="121c6b6" title="Formularz stopka"]'); ?>
+                        <?php echo do_shortcode('[contact-form-7 id="2e2260c" title="Footer Contact"]'); ?>
                     </div>
                 </div>
             </div>

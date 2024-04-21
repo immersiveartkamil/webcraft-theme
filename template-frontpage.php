@@ -103,9 +103,9 @@
 				</div>
 			</div>
 			<div class="slider-container">
-				<div class="portfolio-image"><img src="http://izi-design.local/wp-content/uploads/2024/04/eds10.jpg"></div>
-				<div class="portfolio-image"><img src="http://izi-design.local/wp-content/uploads/2024/04/eds9.jpg"></div>
-				<div class="portfolio-image"><img src="http://izi-design.local/wp-content/uploads/2024/04/eds8.jpg"></div>
+				<div class="portfolio-image"><img src="https://re-design.com.pl/wp-content/uploads/2024/04/eds10.jpg"></div>
+				<div class="portfolio-image"><img src="https://re-design.com.pl/wp-content/uploads/2024/04/eds9.jpg"></div>
+				<div class="portfolio-image"><img src="https://re-design.com.pl/wp-content/uploads/2024/04/eds8.jpg"></div>
 			</div>
 			<div class="gallery-header">
 				<h3>Realizacje</h3>
@@ -125,88 +125,88 @@
 			<div class="row">
 				<div class="col-md-3 mb-4">
 					<a href="http://www.firma1.com" target="_blank">
-						<img src="http://izi-design.local/wp-content/uploads/2024/04/65562565bc0046000ff95215_optimized_403.webp" alt="Firma 1" class="partner-logo">
+						<img src="https://re-design.com.pl/wp-content/uploads/2024/04/65562565bc0046000ff95215_optimized_403.webp" alt="Firma 1" class="partner-logo">
 					</a>
 				</div>
 				<div class="col-md-3 mb-4">
 					<a href="http://www.firma1.com" target="_blank">
-						<img src="http://izi-design.local/wp-content/uploads/2024/04/65562565bc0046000ff95215_optimized_403.webp" alt="Firma 1" class="partner-logo">
+						<img src="https://re-design.com.pl/wp-content/uploads/2024/04/65562565bc0046000ff95215_optimized_403.webp" alt="Firma 1" class="partner-logo">
 					</a>
 				</div>
 				<div class="col-md-3 mb-4">
 					<a href="http://www.firma1.com" target="_blank">
-						<img src="http://izi-design.local/wp-content/uploads/2024/04/65562565bc0046000ff95215_optimized_403.webp" alt="Firma 1" class="partner-logo">
+						<img src="https://re-design.com.pl/wp-content/uploads/2024/04/65562565bc0046000ff95215_optimized_403.webp" alt="Firma 1" class="partner-logo">
 					</a>
 				</div>
 				<div class="col-md-3 mb-4">
 					<a href="http://www.firma1.com" target="_blank">
-						<img src="http://izi-design.local/wp-content/uploads/2024/04/65562565bc0046000ff95215_optimized_403.webp" alt="Firma 1" class="partner-logo">
-					</a>
-				</div>
-			</div>
-			<div class="row">
-				<div class="col-md-3 mb-4">
-					<a href="http://www.firma1.com" target="_blank">
-						<img src="http://izi-design.local/wp-content/uploads/2024/04/65562565bc0046000ff95215_optimized_403.webp" alt="Firma 1" class="partner-logo">
-					</a>
-				</div>
-				<div class="col-md-3 mb-4">
-					<a href="http://www.firma1.com" target="_blank">
-						<img src="http://izi-design.local/wp-content/uploads/2024/04/65562565bc0046000ff95215_optimized_403.webp" alt="Firma 1" class="partner-logo">
-					</a>
-				</div>
-				<div class="col-md-3 mb-4">
-					<a href="http://www.firma1.com" target="_blank">
-						<img src="http://izi-design.local/wp-content/uploads/2024/04/65562565bc0046000ff95215_optimized_403.webp" alt="Firma 1" class="partner-logo">
-					</a>
-				</div>
-				<div class="col-md-3 mb-4">
-					<a href="http://www.firma1.com" target="_blank">
-						<img src="http://izi-design.local/wp-content/uploads/2024/04/65562565bc0046000ff95215_optimized_403.webp" alt="Firma 1" class="partner-logo">
+						<img src="https://re-design.com.pl/wp-content/uploads/2024/04/65562565bc0046000ff95215_optimized_403.webp" alt="Firma 1" class="partner-logo">
 					</a>
 				</div>
 			</div>
 			<div class="row">
 				<div class="col-md-3 mb-4">
 					<a href="http://www.firma1.com" target="_blank">
-						<img src="http://izi-design.local/wp-content/uploads/2024/04/65562565bc0046000ff95215_optimized_403.webp" alt="Firma 1" class="partner-logo">
+						<img src="https://re-design.com.pl/wp-content/uploads/2024/04/65562565bc0046000ff95215_optimized_403.webp" alt="Firma 1" class="partner-logo">
 					</a>
 				</div>
 				<div class="col-md-3 mb-4">
 					<a href="http://www.firma1.com" target="_blank">
-						<img src="http://izi-design.local/wp-content/uploads/2024/04/65562565bc0046000ff95215_optimized_403.webp" alt="Firma 1" class="partner-logo">
+						<img src="https://re-design.com.pl/wp-content/uploads/2024/04/65562565bc0046000ff95215_optimized_403.webp" alt="Firma 1" class="partner-logo">
 					</a>
 				</div>
 				<div class="col-md-3 mb-4">
 					<a href="http://www.firma1.com" target="_blank">
-						<img src="http://izi-design.local/wp-content/uploads/2024/04/65562565bc0046000ff95215_optimized_403.webp" alt="Firma 1" class="partner-logo">
+						<img src="https://re-design.com.pl/wp-content/uploads/2024/04/65562565bc0046000ff95215_optimized_403.webp" alt="Firma 1" class="partner-logo">
 					</a>
 				</div>
 				<div class="col-md-3 mb-4">
 					<a href="http://www.firma1.com" target="_blank">
-						<img src="http://izi-design.local/wp-content/uploads/2024/04/65562565bc0046000ff95215_optimized_403.webp" alt="Firma 1" class="partner-logo">
+						<img src="https://re-design.com.pl/wp-content/uploads/2024/04/65562565bc0046000ff95215_optimized_403.webp" alt="Firma 1" class="partner-logo">
 					</a>
 				</div>
 			</div>
 			<div class="row">
 				<div class="col-md-3 mb-4">
 					<a href="http://www.firma1.com" target="_blank">
-						<img src="http://izi-design.local/wp-content/uploads/2024/04/65562565bc0046000ff95215_optimized_403.webp" alt="Firma 1" class="partner-logo">
+						<img src="https://re-design.com.pl/wp-content/uploads/2024/04/65562565bc0046000ff95215_optimized_403.webp" alt="Firma 1" class="partner-logo">
 					</a>
 				</div>
 				<div class="col-md-3 mb-4">
 					<a href="http://www.firma1.com" target="_blank">
-						<img src="http://izi-design.local/wp-content/uploads/2024/04/65562565bc0046000ff95215_optimized_403.webp" alt="Firma 1" class="partner-logo">
+						<img src="https://re-design.com.pl/wp-content/uploads/2024/04/65562565bc0046000ff95215_optimized_403.webp" alt="Firma 1" class="partner-logo">
 					</a>
 				</div>
 				<div class="col-md-3 mb-4">
 					<a href="http://www.firma1.com" target="_blank">
-						<img src="http://izi-design.local/wp-content/uploads/2024/04/65562565bc0046000ff95215_optimized_403.webp" alt="Firma 1" class="partner-logo">
+						<img src="https://re-design.com.pl/wp-content/uploads/2024/04/65562565bc0046000ff95215_optimized_403.webp" alt="Firma 1" class="partner-logo">
 					</a>
 				</div>
 				<div class="col-md-3 mb-4">
 					<a href="http://www.firma1.com" target="_blank">
-						<img src="http://izi-design.local/wp-content/uploads/2024/04/65562565bc0046000ff95215_optimized_403.webp" alt="Firma 1" class="partner-logo">
+						<img src="https://re-design.com.pl/wp-content/uploads/2024/04/65562565bc0046000ff95215_optimized_403.webp" alt="Firma 1" class="partner-logo">
+					</a>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-3 mb-4">
+					<a href="http://www.firma1.com" target="_blank">
+						<img src="https://re-design.com.pl/wp-content/uploads/2024/04/65562565bc0046000ff95215_optimized_403.webp" alt="Firma 1" class="partner-logo">
+					</a>
+				</div>
+				<div class="col-md-3 mb-4">
+					<a href="http://www.firma1.com" target="_blank">
+						<img src="https://re-design.com.pl/wp-content/uploads/2024/04/65562565bc0046000ff95215_optimized_403.webp" alt="Firma 1" class="partner-logo">
+					</a>
+				</div>
+				<div class="col-md-3 mb-4">
+					<a href="http://www.firma1.com" target="_blank">
+						<img src="https://re-design.com.pl/wp-content/uploads/2024/04/65562565bc0046000ff95215_optimized_403.webp" alt="Firma 1" class="partner-logo">
+					</a>
+				</div>
+				<div class="col-md-3 mb-4">
+					<a href="http://www.firma1.com" target="_blank">
+						<img src="https://re-design.com.pl/wp-content/uploads/2024/04/65562565bc0046000ff95215_optimized_403.webp" alt="Firma 1" class="partner-logo">
 					</a>
 				</div>
 			</div>

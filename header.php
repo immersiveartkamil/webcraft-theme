@@ -484,10 +484,11 @@ U
 
                 requestAnimationFrame(raf);
                 // Grab all elements that have a "data-target" attribute
-                const regexPattern = /^http:\/\/localhost:3000\/#.*$/;
+                const regexPattern = /^https:\/\/re-design.com.pl\/#.*$/;
+
                 const currentPage = window.location.href;
 
-                if (regexPattern.test(currentPage) || currentPage == "http://localhost:3000/") {
+                if (regexPattern.test(currentPage) || currentPage == "https://re-design.com.pl/") {
                     const scrollButtons = document.querySelectorAll('[data-target]');
 
                     // For each element, listen to a "click" event

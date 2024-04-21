@@ -24,37 +24,37 @@ function checkingGsap() {
     // Check if the media query matches initially
     if (mediaQuery.matches) {
       const imagesSets = [
-        ["http://izi-design.local/wp-content/uploads/2024/04/eds10.jpg"],
-        ["http://izi-design.local/wp-content/uploads/2024/04/eds9.jpg"],
-        ["http://izi-design.local/wp-content/uploads/2024/04/eds8.jpg"],
-        ["http://izi-design.local/wp-content/uploads/2024/04/eds7.jpg"],
-        ["http://izi-design.local/wp-content/uploads/2024/04/eds6.jpg"],
+        ["https://re-design.com.pl/wp-content/uploads/2024/04/eds10.jpg"],
+        ["https://re-design.com.pl/wp-content/uploads/2024/04/eds9.jpg"],
+        ["https://re-design.com.pl/wp-content/uploads/2024/04/eds8.jpg"],
+        ["https://re-design.com.pl/wp-content/uploads/2024/04/eds7.jpg"],
+        ["https://re-design.com.pl/wp-content/uploads/2024/04/eds6.jpg"],
         [
-          "http://izi-design.local/wp-content/uploads/2024/04/0E8A6377-24-scaled.jpg",
+          "https://re-design.com.pl/wp-content/uploads/2024/04/0E8A6377-24-scaled.jpg",
         ],
         [
-          "http://izi-design.local/wp-content/uploads/2024/04/0E8A6372-23-scaled.jpg",
+          "https://re-design.com.pl/wp-content/uploads/2024/04/0E8A6372-23-scaled.jpg",
         ],
         [
-          "http://izi-design.local/wp-content/uploads/2024/04/0E8A6369-21-scaled.jpg",
+          "https://re-design.com.pl/wp-content/uploads/2024/04/0E8A6369-21-scaled.jpg",
         ],
         [
-          "http://izi-design.local/wp-content/uploads/2024/04/IMG-20230222-WA0007.jpg",
+          "https://re-design.com.pl/wp-content/uploads/2024/04/IMG-20230222-WA0007.jpg",
         ],
         [
-          "http://izi-design.local/wp-content/uploads/2024/04/IMG-20230222-WA0004.jpg",
+          "https://re-design.com.pl/wp-content/uploads/2024/04/IMG-20230222-WA0004.jpg",
         ],
         [
-          "http://izi-design.local/wp-content/uploads/2024/04/IMG-20230222-WA0009.jpg",
+          "https://re-design.com.pl/wp-content/uploads/2024/04/IMG-20230222-WA0009.jpg",
         ],
         [
-          "http://izi-design.local/wp-content/uploads/2024/04/20230301_134425-scaled.jpg",
+          "https://re-design.com.pl/wp-content/uploads/2024/04/20230301_134425-scaled.jpg",
         ],
         [
-          "http://izi-design.local/wp-content/uploads/2024/04/20230214_163124-scaled.jpg",
+          "https://re-design.com.pl/wp-content/uploads/2024/04/20230214_163124-scaled.jpg",
         ],
         [
-          "http://izi-design.local/wp-content/uploads/2024/04/Screenshot_20230726_174509_Samsung-Internet.jpg",
+          "https://re-design.com.pl/wp-content/uploads/2024/04/Screenshot_20230726_174509_Samsung-Internet.jpg",
         ],
         // Add more sets if needed
       ];
@@ -110,7 +110,7 @@ function checkingGsap() {
       nextSvg.addEventListener("click", nextImage);
 
       function goToGallery() {
-        window.location.href = "http://localhost:3000/galeria/";
+        window.location.href = "https://re-design.com.pl/galeria/";
       }
 
       const gallerySvg = document.getElementById("gallery-svg");
@@ -215,29 +215,29 @@ function checkingGsap() {
     } else {
       const imagesSets = [
         [
-          "http://izi-design.local/wp-content/uploads/2024/04/eds10.jpg",
-          "http://izi-design.local/wp-content/uploads/2024/04/eds9.jpg",
-          "http://izi-design.local/wp-content/uploads/2024/04/eds8.jpg",
+          "https://re-design.com.pl/wp-content/uploads/2024/04/eds10.jpg",
+          "https://re-design.com.pl/wp-content/uploads/2024/04/eds9.jpg",
+          "https://re-design.com.pl/wp-content/uploads/2024/04/eds8.jpg",
         ],
         [
-          "http://izi-design.local/wp-content/uploads/2024/04/eds7.jpg",
-          "http://izi-design.local/wp-content/uploads/2024/04/eds6.jpg",
-          "http://izi-design.local/wp-content/uploads/2024/04/eds3.jpg",
+          "https://re-design.com.pl/wp-content/uploads/2024/04/eds7.jpg",
+          "https://re-design.com.pl/wp-content/uploads/2024/04/eds6.jpg",
+          "https://re-design.com.pl/wp-content/uploads/2024/04/eds3.jpg",
         ],
         [
-          "http://izi-design.local/wp-content/uploads/2024/04/0E8A6372-23-scaled.jpg",
-          "http://izi-design.local/wp-content/uploads/2024/04/0E8A6369-21-scaled.jpg",
-          "http://izi-design.local/wp-content/uploads/2024/04/0E8A6377-24-scaled.jpg",
+          "https://re-design.com.pl/wp-content/uploads/2024/04/0E8A6372-23-scaled.jpg",
+          "https://re-design.com.pl/wp-content/uploads/2024/04/0E8A6369-21-scaled.jpg",
+          "https://re-design.com.pl/wp-content/uploads/2024/04/0E8A6377-24-scaled.jpg",
         ],
         [
-          "http://izi-design.local/wp-content/uploads/2024/04/IMG-20230222-WA0004.jpg",
-          "http://izi-design.local/wp-content/uploads/2024/04/IMG-20230222-WA0009.jpg",
-          "http://izi-design.local/wp-content/uploads/2024/04/IMG-20230222-WA0007.jpg",
+          "https://re-design.com.pl/wp-content/uploads/2024/04/IMG-20230222-WA0004.jpg",
+          "https://re-design.com.pl/wp-content/uploads/2024/04/IMG-20230222-WA0009.jpg",
+          "https://re-design.com.pl/wp-content/uploads/2024/04/IMG-20230222-WA0007.jpg",
         ],
         [
-          "http://izi-design.local/wp-content/uploads/2024/04/20230214_163124-scaled.jpg",
-          "http://izi-design.local/wp-content/uploads/2024/04/Screenshot_20230726_174509_Samsung-Internet.jpg",
-          "http://izi-design.local/wp-content/uploads/2024/04/Screenshot_20230726_174553_Samsung-Internet.jpg",
+          "https://re-design.com.pl/wp-content/uploads/2024/04/20230214_163124-scaled.jpg",
+          "https://re-design.com.pl/wp-content/uploads/2024/04/Screenshot_20230726_174509_Samsung-Internet.jpg",
+          "https://re-design.com.pl/wp-content/uploads/2024/04/Screenshot_20230726_174553_Samsung-Internet.jpg",
         ],
 
         // Add more sets if needed
@@ -294,7 +294,7 @@ function checkingGsap() {
       nextSvg.addEventListener("click", nextImage);
 
       function goToGallery() {
-        window.location.href = "http://localhost:3000/galeria/";
+        window.location.href = "https://re-design.com.pl/galeria/";
       }
 
       const gallerySvg = document.getElementById("gallery-svg");
