@@ -828,8 +828,8 @@ svg:hover {
 .footer form textarea {
   width: 100%;
   /* Set width to 25% */
-  background-color: black;
-  color: white;
+  background-color: white;
+  color: black;
   border: 1px solid #555;
   /* Border color */
   border-radius: 5px;
@@ -1023,8 +1023,8 @@ svg:hover {
   .footer form textarea {
     width: 100%;
     /* Set width to 25% */
-    background-color: black;
-    color: white;
+    background-color: white;
+    color: black;
     border: 1px solid #555;
     /* Border color */
     border-radius: 5px;
@@ -1151,6 +1151,32 @@ svg:hover {
   font-size: 60px;
 }
 
+.footer-contact {
+  text-align: center;
+  margin: 0 auto !important;
+}
+.footer-contact .wpcf7-submit {
+  padding: 1em 4em;
+  background-color: transparent;
+  border: 1px solid #555;
+  border-radius: 25px;
+  color: black;
+  margin-bottom: 2em;
+  cursor: pointer;
+  letter-spacing: 3px;
+  font-size: 0.8em;
+  transition: 0.5s;
+}
+.footer-contact .wpcf7-submit:hover {
+  scale: 0.95;
+}
+
+@media (min-width: 700px) {
+  .footer-contact {
+    max-width: 100%;
+    margin: 0 auto 2em 0;
+  }
+}
 .quote {
   position: relative;
 }

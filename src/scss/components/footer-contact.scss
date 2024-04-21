@@ -1,0 +1,27 @@
+.footer-contact{
+    text-align: center;
+    margin:0 auto!important;
+    .wpcf7-submit{
+        padding: 1em 4em;
+        background-color: transparent;
+        border: 1px solid #555;
+        border-radius: 25px;
+        color:black;
+        margin-bottom: 2em;
+        cursor: pointer;
+        letter-spacing: 3px;
+        font-size: .8em;
+        transition: .5s;
+
+        &:hover{
+        scale: .95;
+        }
+    }
+}
+
+@media(min-width:700px){
+    .footer-contact{
+        max-width: 100%;
+        margin: 0 auto 2em 0;
+    }
+}
