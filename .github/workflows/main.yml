@@ -1,0 +1,23 @@
+name: Update Local Repository
+
+on:
+  push:
+    branches:
+      - main-page  # Change this to your branch name if needed
+
+jobs:
+  update-local:
+    runs-on: self-hosted
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v2
+        with:
+          ref: main-page  # Change this to your branch name if needed
+
+      - name: Pull Changes to Local Repository
+        run: |
+          cd C:\Users\Kamil\Local Sites\webcraft-design-studio\app\public\wp-content\themes\webcraft-theme
+          git fetch origin
+          git reset --hard origin/main  # Change this to your branch name if needed
+        shell: pwsh
